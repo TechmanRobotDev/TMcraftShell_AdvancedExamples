@@ -1,0 +1,190 @@
+﻿<Window x:Class="Shell2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+        
+        xmlns:local="clr-namespace:Shell2"
+        mc:Ignorable="d"
+        Height="800" Width="1366
+        "
+        WindowStyle="None"
+        Loaded="Window_Loaded"
+        Closing="Window_Closing"
+        >
+    <Window.Resources>
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" StrokeDashArray="1 2" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" SnapsToDevicePixels="true" StrokeThickness="1"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+        <Style x:Key="RoundedButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="#FF64CCF1"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="FontSize" Value="20"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" CornerRadius="30" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.MouseOver.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.MouseOver.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="Gray"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Pressed.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Storyboard x:Key="Start_Animation">
+            <DoubleAnimation x:Name="ProgressOn"
+                         BeginTime="0:0:0"
+                         Storyboard.TargetName="CircularProgressBar"
+                         Storyboard.TargetProperty="StrokeDashOffset"
+                         Duration="0:0:3"
+                         From="100"
+                         To="60" 
+                         Completed="ProgressOn_Completed"    
+                             />
+
+            <DoubleAnimation x:Name="ProgressOff" 
+                         Storyboard.TargetProperty="Opacity"
+                         Storyboard.TargetName="CircularProgressBar"
+                         From="0"
+                         To="1"
+                         BeginTime="0:0:0"
+                         Duration="0:0:0" />
+        </Storyboard>
+        <Storyboard x:Key="Stop_Animation">
+
+            <DoubleAnimation Storyboard.TargetProperty="Opacity"
+                         Storyboard.TargetName="CircularProgressBar"
+                         From="1"
+                         To="0"
+                         BeginTime="0:0:0"
+                         Duration="0:0:0" />
+
+        </Storyboard>
+        <Storyboard x:Key="RunDot" RepeatBehavior="Forever">
+            <DoubleAnimation Storyboard.TargetName="dotTransform" Storyboard.TargetProperty="X" From="0" To="100" Duration="0:0:2"/>
+        </Storyboard>
+        <ei:ControlStoryboardAction x:Key="DotControlStoryboardAction" Storyboard="{StaticResource RunDot}" ControlStoryboardOption="Play"/>
+    </Window.Resources>
+    <Window.Style>
+        <Style/>
+    </Window.Style>
+
+    <Border x:Name="MainBorder" Background="#eff2f7" CornerRadius="50" Margin="0,93,0,0">
+        <Grid Margin="0,0,0,0">
+
+            <Border BorderBrush="#FFB9B7B7" BorderThickness="3" HorizontalAlignment="Left" Height="215" Margin="512,32,0,0" VerticalAlignment="Top" Width="753" CornerRadius="30"/>
+            <Border BorderBrush="#FFB9B7B7" BorderThickness="3,3,3,3" HorizontalAlignment="Left" Height="83" Margin="21,278,0,0" VerticalAlignment="Top" Width="1244" CornerRadius="30">
+                <Label x:Name="label_ErrorShow" Content="" HorizontalAlignment="Center" Height="66" Margin="0,7,0,0" VerticalAlignment="Top" Width="876" FontFamily="Arial"/>
+            </Border>
+            <Label x:Name="label" Content="Messages" HorizontalAlignment="Left" Height="57" Margin="536,75,0,0" VerticalAlignment="Top" Width="402" FontFamily="Arial" FontSize="20"/>
+
+            <Button x:Name="btn_ProjectRun" Content="RUN" HorizontalAlignment="Left" Height="60" Margin="19,140,0,0" VerticalAlignment="Top" Width="132" Style="{DynamicResource RoundedButtonStyle}" Click="btn_ProjectRun_Click"/>
+            <Button x:Name="btn_ProjectStop" Content="STOP" HorizontalAlignment="Left" Height="60" Margin="167,140,0,0" VerticalAlignment="Top" Width="130" Style="{DynamicResource RoundedButtonStyle}" Click="btn_ProjectStop_Click"/>
+
+            <Grid HorizontalAlignment="Left" Height="250" Margin="255,310,0,0" VerticalAlignment="Top" Width="250">
+                <Grid.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Grid.RenderTransform>
+                <Path x:Name="CircularProgressBar" Style="{StaticResource ProgressBarStyle}" Margin="47,0,0,0" HorizontalAlignment="Left" Height="150"  Width="150" Stretch="Fill"/>
+                <Button x:Name="btn_EXIT2" Content="OFF" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="60"  Style="{DynamicResource RoundedButtonStyle}" FontSize="20"  PreviewMouseDown="btn_EXIT2_PreviewMouseDown" PreviewMouseUp="btn_EXIT2_PreviewMouseUp" PreviewTouchDown="btn_EXIT2_PreviewTouchDown" PreviewTouchUp="btn_EXIT2_PreviewTouchUp" Margin="91,154,0,0" Background="#FFFB5757"  >
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                </Button>
+            </Grid>
+            <Border BorderBrush="#FFB9B7B7" BorderThickness="3,3,3,3" HorizontalAlignment="Left" Height="84" Margin="19,29,0,0" VerticalAlignment="Top" Width="456" CornerRadius="30"/>
+            <ComboBox x:Name="comboBox_ProjectName" HorizontalAlignment="Left" Height="34" Margin="47,54,0,0" VerticalAlignment="Top" Width="240" FontSize="20" IsSynchronizedWithCurrentItem="True" Background="{DynamicResource {x:Static SystemColors.InactiveSelectionHighlightBrushKey}}" BorderBrush="{x:Null}" FontFamily="Arial"/>
+            <Button x:Name="btn_UpdateProject" Content="UPDATE" HorizontalAlignment="Left" Height="58" Margin="315,39,0,0" VerticalAlignment="Top" Width="134" Style="{DynamicResource RoundedButtonStyle}" Click="btn_UpdateProject_Click"/>
+            <Label x:Name="label_Copy" Content="Projects on Robot" HorizontalAlignment="Left" Height="24" Margin="47,34,0,0" VerticalAlignment="Top" Width="173" FontFamily="Arial" Foreground="#FF8C8C8C"/>
+            <Grid HorizontalAlignment="Left" Height="142" Margin="-40,361,0,0" VerticalAlignment="Top" Width="231">
+                <Border BorderBrush="#FFB9B7B7" BorderThickness="3,3,3,3" HorizontalAlignment="Left" Height="94" VerticalAlignment="Center" Width="253" CornerRadius="50" Margin="-32,0,0,0"/>
+            </Grid>
+
+            <Label x:Name="label_Copy1" Content="TMflow Display in Real Time" HorizontalAlignment="Left" Height="24" Margin="536,46,0,0" VerticalAlignment="Top" Width="236" FontFamily="Arial" Foreground="#FF8C8C8C"/>
+
+            <Label x:Name="label_Copy2" Content="Error" HorizontalAlignment="Left" Height="24" Margin="47,280,0,0" VerticalAlignment="Top" Width="86" FontFamily="Arial" Foreground="#FF8C8C8C"/>
+
+            <Grid x:Name="UpperGrid" HorizontalAlignment="Center" Margin="0,-93,0,0" VerticalAlignment="Top">
+
+                <Border HorizontalAlignment="Center" Height="93" VerticalAlignment="Top" Width="{Binding ElementName=MainBorder, Path=ActualWidth}"  Background="#FF737373" Grid.RowSpan="2"/>
+                <Button x:Name="btn_RobotStatus" HorizontalAlignment="Left" Height="60" Margin="383,15,0,0" VerticalAlignment="Top" Width="175" Style="{DynamicResource RoundedButtonStyle}" Foreground="White" BorderThickness="3,3,3,3" Content="MANUAL" IsEnabled="False"/>
+                <Button x:Name="btn_Mode" Content="MODE" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="132" Style="{DynamicResource RoundedButtonStyle}" Click="btn_Mode_Click" Margin="572,15,0,0" />
+                <Button x:Name="btn_GoToTMflow" Content="GO TO&#xA;TMflow" HorizontalAlignment="Left" Height="60
+                        " Margin="972,0,0,0" VerticalAlignment="Center" Width="162" Style="{DynamicResource RoundedButtonStyle}" Click="button_Click"/>
+                <Ellipse x:Name="dot" HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="10" Fill="#FF52E454" Margin="412,55,0,0">
+                    <Ellipse.RenderTransform>
+                        <TranslateTransform x:Name="dotTransform"/>
+                    </Ellipse.RenderTransform>
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="Loaded">
+                            <ei:ControlStoryboardAction ControlStoryboardOption="Play" Storyboard="{StaticResource RunDot}" />
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </Ellipse>
+
+            </Grid>
+            <Button x:Name="btn_LoginAndGetControl" Content="GetControl" HorizontalAlignment="Left" Height="60" Margin="793,-76,0,0" VerticalAlignment="Top" Width="164" Style="{DynamicResource RoundedButtonStyle}" Click="btn_LoginAndGetControl_Click"/>
+            <Button x:Name="btn_RobotStatusError" HorizontalAlignment="Left" Height="60" Margin="382,-78,0,0" VerticalAlignment="Top" Width="176" Style="{DynamicResource RoundedButtonStyle}" Foreground="#FFF9F9F9"  Content="ERROR" Background="#FFFF4B2E"/>
+            <Button x:Name="btn_Prompt" Content="?" Width ="60" Height="60" Margin="1174,-76,46,0" VerticalAlignment="Top" Style="{DynamicResource RoundedButtonStyle}" Click="btn_Prompt_Click" FontSize="40" BorderBrush="{x:Null}" />
+            <Label x:Name="label_TMcraft" Content="Example with TMcraft Shell" HorizontalAlignment="Left" Height="38" Margin="1032,608,0,0" VerticalAlignment="Top" Width="279" FontFamily="Arial" Foreground="#FF8C8C8C" FontSize="20"/>
+        </Grid>
+
+    </Border>
+
+
+
+
+</Window>

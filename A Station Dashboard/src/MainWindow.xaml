@@ -1,0 +1,54 @@
+﻿<Window x:Class="HDProcess.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HDProcess"
+        mc:Ignorable="d" WindowStyle="None"
+        Title="WC11" Height="768" Width="1366" SnapsToDevicePixels="True"  Loaded="Window_Loaded"  Closing="Window_Closing" WindowStartupLocation="CenterScreen">
+    <Border Background="#F5F5F5">
+        <Viewbox Stretch="UniformToFill">
+            <Grid Height="768" Width="1366">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="90"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <DockPanel Grid.Row="0" MinHeight="50" Background="#202326" LastChildFill="False" VerticalAlignment="Bottom">
+                    <local:MyButton x:Name="GoBackButton" Margin="0,0,0,0"
+                                                        Click="GoBackButton_Click" ToolTip="Leave"
+                                                        IconNormalUri="/HDProcess;component/Images/btn-leave-normal.png" 
+                                                        IconPressedUri="/HDProcess;component/Images/btn-leave-hover.png" Visibility="Visible" Height="50" Width="50"/>
+                    <TextBlock Text="R25" x:Name="txt_title" Style="{StaticResource BaseTextBlock}" Foreground="#FFFFFF" FontSize="21.35px" Padding="22,0,0,0" />
+                    <Ellipse x:Name="LightAuto" Width="28" Height="28" Fill="{DynamicResource LightEnabled}" Margin="18,11,11,11" VerticalAlignment="Center" DockPanel.Dock="Right"/>
+                    <TextBlock x:Name="txt_robotForce" Text="100 %" Style="{StaticResource BaseTextBlock}" VerticalAlignment="Center"
+                                   FontSize="25.62px" Foreground="#FFFFFF" DockPanel.Dock="Right" Margin="8,0,0,0"/>
+                    <TextBlock x:Name="txt_tcpSpeed" Text="2000 mm/s" Style="{StaticResource BaseTextBlock}" VerticalAlignment="Center"
+                                   FontSize="25.62px" Foreground="#FFFFFF" DockPanel.Dock="Right" />
+                </DockPanel>
+                <Grid Grid.Row="1" MinHeight="90" Margin="30,0,20,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <DockPanel Grid.Column="0" LastChildFill="False" Margin="0,0,0,25">
+                        <RadioButton x:Name="ProductionButton" Style="{StaticResource tabRadio}" GroupName="subTitle" Content="生產"
+                                            Click="ProductionButton_Click" Width="166" DockPanel.Dock="Left" FontSize="18"/>
+                        <RadioButton x:Name="PerformanceButton" Style="{StaticResource tabRadio}" GroupName="subTitle" Content="生產狀況"
+                                             Click="PerformanceButton_Click" Width="166" DockPanel.Dock="Left" FontSize="18"/>
+                    </DockPanel>
+                    <local:UserControlBar x:Name="user_bar" Grid.Column="2" MinHeight="88" MinWidth="443" 
+                                          HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                </Grid>
+                <DockPanel Grid.Row="2">
+                    <Border Margin="30,0,30,30">
+                        <ContentPresenter  Content="{Binding UserContent}"/>
+                    </Border>
+                </DockPanel>
+                <DockPanel Grid.Row="3" Background="#202326"/>
+            </Grid>
+        </Viewbox>
+    </Border>
+</Window>

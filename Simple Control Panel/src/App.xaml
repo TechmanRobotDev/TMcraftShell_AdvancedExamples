@@ -1,0 +1,35 @@
+﻿<Application x:Class="Shell2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Shell2"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <Style x:Key="ProgressBarStyle"
+               TargetType="Path">
+
+            <Setter Property="HorizontalAlignment"
+                    Value="Center" />
+            <Setter Property="VerticalAlignment"
+                    Value="Center" />
+            <Setter Property="Stroke"
+                    Value="#FF7000" />
+            <Setter Property="StrokeThickness"
+                    Value="20" />
+            <Setter Property="StrokeStartLineCap"
+                    Value="Flat" />
+            <Setter Property="StrokeEndLineCap"
+                    Value="Flat" />
+            <Setter Property="StrokeDashOffset"
+                    Value="0" />
+            <Setter Property="StrokeDashArray"
+                    Value="100" />
+            <Setter Property="Data"
+                    Value="M 0,60 A 60,60 0 1 1 120,60 A 60,60 0 1 1 0,60" />
+            <Setter Property="Opacity"
+                    Value="0" />
+
+        </Style>
+        
+    </Application.Resources>
+</Application>

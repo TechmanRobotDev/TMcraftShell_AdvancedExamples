@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Test.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Expression.Interaction" Version="3.0.40218" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TMcraft">
+      <HintPath>bin\Debug\net6.0-windows\TMcraft.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

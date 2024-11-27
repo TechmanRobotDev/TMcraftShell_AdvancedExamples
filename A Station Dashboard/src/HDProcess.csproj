@@ -1,0 +1,115 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+		<UseWindowsForms>False</UseWindowsForms>
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<AnalysisLevel>6.0</AnalysisLevel>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="CtrlVision4Open\**" />
+		<Compile Remove="releasebin\**" />
+		<Compile Remove="TMcraft\**" />
+		<EmbeddedResource Remove="CtrlVision4Open\**" />
+		<EmbeddedResource Remove="releasebin\**" />
+		<EmbeddedResource Remove="TMcraft\**" />
+		<None Remove="CtrlVision4Open\**" />
+		<None Remove="releasebin\**" />
+		<None Remove="TMcraft\**" />
+		<Page Remove="CtrlVision4Open\**" />
+		<Page Remove="releasebin\**" />
+		<Page Remove="TMcraft\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Remove="PerformancePage.xaml.cs" />
+		<Compile Remove="ProductionPage.xaml.cs" />
+		<Compile Remove="UserControlPlayer.xaml.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Remove="Images\btn-leave-hover.png" />
+		<None Remove="Images\btn-leave-normal.png" />
+		<None Remove="Images\btn-pause-Hover.png" />
+		<None Remove="Images\btn-pause-normal.png" />
+		<None Remove="Images\btn-Play-hover.png" />
+		<None Remove="Images\btn-Play-normal.png" />
+		<None Remove="Images\btn-Stop-Hover .png" />
+		<None Remove="Images\btn-stop-hover.png" />
+		<None Remove="Images\btn-Stop-normal.png" />
+		<None Remove="Images\btn-switch-fg.png" />
+		<None Remove="Images\btn-switch-hd.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Page Remove="PerformancePage.xaml" />
+		<Page Remove="ProductionPage.xaml" />
+		<Page Remove="UserControlPlayer.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="Images\btn-leave-normal.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="TMcraft">
+			<HintPath>TMcraft\TMcraft.dll</HintPath>
+			<Private>True</Private>
+			<EmbedInteropTypes>False</EmbedInteropTypes>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+		<PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<Resource Include="Images\btn-leave-hover.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Images\btn-pause-Hover.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Images\btn-pause-normal.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Images\btn-Play-hover.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Images\btn-Play-normal.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Images\btn-stop-hover.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Images\btn-Stop-normal.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Images\btn-switch-fg.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Images\btn-switch-hd.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Update="UserControlBar.xaml.cs">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Compile>
+	</ItemGroup>
+	<ItemGroup>
+		<None Update="green_mode.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<Page Update="UserControlBar.xaml">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Page>
+	</ItemGroup>
+</Project>

@@ -1,0 +1,158 @@
+﻿<UserControl x:Class="HDProcess.UserControlPF"
+             x:Name="PF"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HDProcess"
+             mc:Ignorable="d" 
+             d:DesignHeight="548" d:DesignWidth="1306">
+    <Border>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <DockPanel Grid.Row="0" Grid.Column="0">
+                <Grid>
+                    <Border Style="{StaticResource BorderStyle}" Margin="0,0,5.5,5.5">
+                        <Grid Background="#FFFFFF">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="3*"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="此顆鎖附次數" Style="{StaticResource TitleTextBlockStyle}" Grid.Row="0"></TextBlock>
+                            <TextBlock x:Name="txt_sScrewCounter" Text="" Style="{StaticResource ValueTextBlockStyle}" Grid.Row="1"></TextBlock>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </DockPanel>
+            <DockPanel Grid.Row="0" Grid.Column="1">
+                <Grid>
+                    <Border Style="{StaticResource BorderStyle}" Margin="5.5,0,5.5,5.5">
+                        <Grid Background="#FFFFFF">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="3*"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="鎖附良率 (當顆)" Style="{StaticResource TitleTextBlockStyle}" Grid.Row="0"></TextBlock>
+                            <Grid Grid.Row="1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock x:Name="txt_sYield" Text="" Style="{StaticResource ValueTextBlockStyle}" Grid.Column="1"  
+                                           VerticalAlignment="Bottom" Margin="0,0,0,28"></TextBlock>
+                                <TextBlock Text=" %" Style="{StaticResource BaseTextBlock}" Grid.Column="2" 
+                                           FontSize="25.62px" VerticalAlignment="Bottom" Foreground="#77BC1F" Margin="0,0,0,31"></TextBlock>
+                            </Grid>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </DockPanel>
+            <DockPanel Grid.Row="0" Grid.Column="2">
+                <Grid>
+                    <Border Style="{StaticResource BorderStyle}" Margin="5.5,0,0,5.5">
+                        <Grid Background="#FFFFFF">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="3*"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="今日鎖附良率" Style="{StaticResource TitleTextBlockStyle}" Grid.Row="0"></TextBlock>
+                            <Grid Grid.Row="1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock x:Name="txt_sGlobalYield" Text="" Style="{StaticResource ValueTextBlockStyle}" Grid.Column="1" 
+                                           VerticalAlignment="Bottom" Margin="0,0,0,28"  ></TextBlock>
+                                <TextBlock Text=" %"  Style="{StaticResource BaseTextBlock}" Grid.Column="2"
+                                           FontSize="25.62px" VerticalAlignment="Bottom" Foreground="#77BC1F" Margin="0,0,0,31"></TextBlock>
+                            </Grid>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </DockPanel>
+            <DockPanel Grid.Row="1" Grid.Column="0">
+                <Grid>
+                    <Border Style="{StaticResource BorderStyle}" Margin="0,5.5,5.5,5.5">
+                        <Grid Background="#FFFFFF">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="3*" />
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="螺絲起子狀態" Style="{StaticResource TitleTextBlockStyle}" Grid.Row="0"></TextBlock>
+                            <TextBlock x:Name="txt_sResult" Text="" Style="{StaticResource ValueTextBlockStyle}" Grid.Row="1"></TextBlock>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </DockPanel>
+            <DockPanel Grid.Row="1" Grid.Column="1">
+                <Grid>
+                    <Border Style="{StaticResource BorderStyle}">
+                        <Grid Background="#FFFFFF">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="2*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="當顆鎖附" Style="{StaticResource TitleTextBlockStyle}" Grid.Row="0" Grid.Column="0"></TextBlock>
+                            <DockPanel Grid.Row="1" Grid.Column="0">
+                                <TextBlock Text="OK" Style="{StaticResource BaseTextBlock}" FontSize="25.62px" Foreground="#77BC1F" 
+                                           DockPanel.Dock="Right" Margin="0,0,10,31" VerticalAlignment="Bottom"></TextBlock>
+                                <TextBlock x:Name="txt_sOK" Text="" Style="{StaticResource ValueTextBlockStyle}" Margin="0,0,0,28" VerticalAlignment="Bottom"></TextBlock>
+                            </DockPanel>
+                            <Border Grid.Row="1" Grid.Column="0" BorderBrush="#C7C7C7" BorderThickness="0,0,1,0" Margin="0,20,0,20"></Border>
+                            <DockPanel Grid.Row="1" Grid.Column="1">
+                                <TextBlock Text="NG" Style="{StaticResource BaseTextBlock}" FontSize="25.62px" Foreground="#EF5C5D"  
+                                           DockPanel.Dock="Right"  Margin="0,0,10,31" VerticalAlignment="Bottom"></TextBlock>
+                                <TextBlock x:Name="txt_sNG" Text="" Style="{StaticResource ValueTextBlockStyle}" Foreground="#EF5C5D" 
+                                            Margin="0,0,0,28" VerticalAlignment="Bottom"></TextBlock>
+                            </DockPanel>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </DockPanel>
+            <DockPanel Grid.Row="1" Grid.Column="2">
+                <Grid>
+                    <Border Style="{StaticResource BorderStyle}" Margin="5.5,5.5,0,5.5">
+                        <Grid Background="#FFFFFF">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="2*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="今日鎖附" Style="{StaticResource TitleTextBlockStyle}" Grid.Row="0" Grid.Column="0"></TextBlock>
+                            <DockPanel Grid.Row="1" Grid.Column="0">
+                                <TextBlock Text="OK" Style="{StaticResource BaseTextBlock}" FontSize="25.62px" Foreground="#77BC1F" 
+                                           DockPanel.Dock="Right" Margin="0,0,10,31" VerticalAlignment="Bottom"></TextBlock>
+                                <TextBlock x:Name="txt_sGlobalOK" Text="" Style="{StaticResource ValueTextBlockStyle}" Margin="0,0,0,28" VerticalAlignment="Bottom"  ></TextBlock>
+                            </DockPanel>
+                            <Border Grid.Row="1" Grid.Column="0" BorderBrush="#C7C7C7" BorderThickness="0,0,1,0" Margin="0,20,0,20"></Border>
+                            <DockPanel Grid.Row="1" Grid.Column="1">
+                                <TextBlock Text="NG" Style="{StaticResource BaseTextBlock}" FontSize="25.62px" Foreground="#EF5C5D" 
+                                           DockPanel.Dock="Right"   Margin="0,0,10,31" VerticalAlignment="Bottom" ></TextBlock>
+                                <TextBlock x:Name="txt_sGlobalNG" Text="" Style="{StaticResource ValueTextBlockStyle}" Foreground="#EF5C5D" 
+                                           Margin="0,0,0,28" VerticalAlignment="Bottom"></TextBlock>
+                            </DockPanel>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </DockPanel>
+        </Grid>
+    </Border>
+</UserControl>

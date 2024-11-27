@@ -1,0 +1,43 @@
+﻿<Window x:Class="RunProject.Window_Prompt"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RunProject"
+        mc:Ignorable="d"
+        Title="Window_Prompt" Height="450" Width="800"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True"
+        Background="Transparent"
+        Opacity="1"
+        ResizeMode="NoResize">
+    <Grid>
+        <Border  HorizontalAlignment="Center" Height="450" VerticalAlignment="Center" Width="800" CornerRadius="30" Background="#FFA4A4A4">
+            <Label x:Name="label" Content="[Version 1.0.0.1]&#xD;&#xA;Hint about this demo&#xD;&#xA;&#xD;&#xA;- Make sure that there is a global variable(string array) in robot:&#xD;&#xA;   g_MyProjectList{10} = {&quot;ProjectName1&quot;, &quot;ProjectName2&quot;,...,&quot;ProjectName10&quot;}&#xD;&#xA;&#xD;&#xA;- The project list will be shown in drop-down list &#xD;&#xA; &#xD;&#xA;- Corresponded TMflow project should exist, ProjectName1, ProjetName2,..." HorizontalAlignment="Left" Height="341" Margin="49,66,0,0" VerticalAlignment="Top" Width="681" FontFamily="Calibri" FontSize="20" FontWeight="Bold" Foreground="White" Background="{x:Null}"/>
+        </Border>
+
+        <Button Margin="723,20,26,379" Background="#FFFB5555"  Click="Button_Click" Content="X" FontSize="30" FontWeight="Bold" Foreground="#FFFBFBFB" BorderBrush="{x:Null}" BorderThickness="0,0,0,0" >
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="40"></Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Margin="698,347,10,10" Background="#FFA4A4A4"  Click="ShowExitButton" Content="" FontSize="10" FontWeight="Bold" Foreground="#FFFBFBFB" BorderBrush="{x:Null}" BorderThickness="0,0,0,0">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="40"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="Button_ExitApp" Margin="214,354,125,18" Background="#FFFB5555"  Click="ExitApp" Content="[Warning] Are you sure to terminate all Shell?" FontSize="20" FontWeight="Bold" Foreground="#FFFBFBFB" BorderBrush="{x:Null}" BorderThickness="0,0,0,0">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="40"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+    </Grid>
+</Window>

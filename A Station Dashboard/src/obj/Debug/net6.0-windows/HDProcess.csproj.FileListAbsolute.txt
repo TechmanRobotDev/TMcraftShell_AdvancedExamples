@@ -1,0 +1,96 @@
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\HDProcess.exe
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\HDProcess.deps.json
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\HDProcess.runtimeconfig.json
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\HDProcess.dll
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\HDProcess.pdb
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\Microsoft.Win32.SystemEvents.dll
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\System.Drawing.Common.dll
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\TMcraft.dll
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\Google.Protobuf.dll
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\Grpc.Core.Api.dll
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\Grpc.Core.dll
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\TMcraft.pdb
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\TMcraft.xml
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\Google.Protobuf.pdb
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\Google.Protobuf.xml
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\Grpc.Core.Api.pdb
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\Grpc.Core.Api.xml
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\Grpc.Core.pdb
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\bin\Debug\net6.0-windows\Grpc.Core.xml
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\HDProcess.csproj.AssemblyReference.cache
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\UserControlPD.baml
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\App.baml
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\UserControlBar.g.cs
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\UserControlPD.g.cs
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\UserControlPF.g.cs
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\App.g.cs
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\HDProcess_MarkupCompile.cache
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\HDProcess_MarkupCompile.lref
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\MainWindow.baml
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\Themes\Generic.baml
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\UserControlBar.baml
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\UserControlPF.baml
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\HDProcess.g.resources
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\HDProcess.GeneratedMSBuildEditorConfig.editorconfig
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\HDProcess.AssemblyInfoInputs.cache
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\HDProcess.AssemblyInfo.cs
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\HDProcess.csproj.CoreCompileInputs.cache
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\HDProcess.csproj.Up2Date
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\HDProcess.dll
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\refint\HDProcess.dll
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\HDProcess.pdb
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\HDProcess.genruntimeconfig.cache
+D:\0 Techman Inc\! Product Dev\2023 Q2_TMcraft Shell\Examples\FactoryExample\HDProcess240614\Screwing Station\obj\Debug\net6.0-windows\ref\HDProcess.dll
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\HDProcess.exe
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\HDProcess.deps.json
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\HDProcess.runtimeconfig.json
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\HDProcess.dll
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\HDProcess.pdb
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\System.Drawing.Common.dll
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\TMcraft.dll
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\Grpc.Core.Api.dll
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\Grpc.Core.dll
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\TMcraft.pdb
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\TMcraft.xml
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\Google.Protobuf.pdb
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\Google.Protobuf.xml
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\Grpc.Core.Api.pdb
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\Grpc.Core.Api.xml
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\Grpc.Core.pdb
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\bin\Debug\net6.0-windows\Grpc.Core.xml
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\HDProcess.csproj.AssemblyReference.cache
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\UserControlPD.baml
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\App.baml
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\UserControlBar.g.cs
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\UserControlPD.g.cs
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\UserControlPF.g.cs
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\HDProcess_MarkupCompile.cache
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\HDProcess_MarkupCompile.lref
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\Themes\Generic.baml
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\UserControlBar.baml
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\UserControlPF.baml
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\HDProcess.g.resources
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\HDProcess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\HDProcess.AssemblyInfoInputs.cache
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\HDProcess.AssemblyInfo.cs
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\HDProcess.csproj.CoreCompileInputs.cache
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\HDProcess.csproj.Up2Date
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\HDProcess.dll
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\refint\HDProcess.dll
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\HDProcess.pdb
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\HDProcess.genruntimeconfig.cache
+C:\Users\ronald.chan\Desktop\TMDev Github\TMcraftShell_AdvancedExamples\A Station Dashboard\src\obj\Debug\net6.0-windows\ref\HDProcess.dll

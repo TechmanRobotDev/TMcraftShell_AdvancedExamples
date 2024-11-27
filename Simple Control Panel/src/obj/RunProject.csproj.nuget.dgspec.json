@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\0 Techman Inc\\! Product Dev\\2023 Q2_TMcraft Shell\\Examples\\Jerry control panel\\RunProject-v1.0.0.1\\Simple Control Panel\\RunProject.csproj": {}
+  },
+  "projects": {
+    "D:\\0 Techman Inc\\! Product Dev\\2023 Q2_TMcraft Shell\\Examples\\Jerry control panel\\RunProject-v1.0.0.1\\Simple Control Panel\\RunProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\0 Techman Inc\\! Product Dev\\2023 Q2_TMcraft Shell\\Examples\\Jerry control panel\\RunProject-v1.0.0.1\\Simple Control Panel\\RunProject.csproj",
+        "projectName": "RunProject",
+        "projectPath": "D:\\0 Techman Inc\\! Product Dev\\2023 Q2_TMcraft Shell\\Examples\\Jerry control panel\\RunProject-v1.0.0.1\\Simple Control Panel\\RunProject.csproj",
+        "packagesPath": "C:\\Users\\ronald.chan\\.nuget\\packages\\",
+        "outputPath": "D:\\0 Techman Inc\\! Product Dev\\2023 Q2_TMcraft Shell\\Examples\\Jerry control panel\\RunProject-v1.0.0.1\\Simple Control Panel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ronald.chan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Expression.Interaction": {
+              "target": "Package",
+              "version": "[3.0.40218, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

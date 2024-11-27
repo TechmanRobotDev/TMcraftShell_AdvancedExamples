@@ -1,0 +1,117 @@
+﻿<UserControl x:Class="HDProcess.UserControlBar"
+             x:Name="bar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HDProcess"
+             mc:Ignorable="d" 
+             d:DesignHeight="88" d:DesignWidth="443">
+    <UserControl.Resources>
+        <BitmapImage x:Key="nPlayBtn" UriSource="/HDProcess;component/Images/btn-Play-normal.png"></BitmapImage>
+        <BitmapImage x:Key="hPlayBtn" UriSource="/HDProcess;component/Images/btn-Play-hover.png"></BitmapImage>
+        <BitmapImage x:Key="nPauseBtn" UriSource="/HDProcess;component/Images/btn-pause-normal.png"></BitmapImage>
+        <BitmapImage x:Key="hPauseBtn" UriSource="/HDProcess;component/Images/btn-pause-Hover.png"></BitmapImage>
+        <BitmapImage x:Key="nStopBtn" UriSource="/HDProcess;component/Images/btn-Stop-normal.png"></BitmapImage>
+        <BitmapImage x:Key="hStopBtn" UriSource="/HDProcess;component/Images/btn-Stop-Hover.png"></BitmapImage>
+    </UserControl.Resources>
+    <Border>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <DockPanel Grid.Column="0">
+                <Button x:Name="PlayBtn" Click="PlayBtn_Click" Height="68" Width="131">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}">
+                                <ContentPresenter />
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsEnabled" Value="True">
+                                    <Setter Property="Background">
+                                        <Setter.Value>
+                                            <ImageBrush ImageSource="{StaticResource nPlayBtn}" Stretch="Uniform"></ImageBrush>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                                <Trigger Property="IsEnabled" Value="False">
+                                    <Setter Property="Background">
+                                        <Setter.Value>
+                                            <ImageBrush ImageSource="{StaticResource hPlayBtn}" Stretch="Uniform"></ImageBrush>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Cursor" Value="Hand"></Setter>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </DockPanel>
+            <DockPanel Grid.Column="1">
+                <Button x:Name="PauseBtn" Click="PauseBtn_Click" Height="68" Width="131">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}">
+                                <ContentPresenter />
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsEnabled" Value="True">
+                                    <Setter Property="Background">
+                                        <Setter.Value>
+                                            <ImageBrush ImageSource="{StaticResource nPauseBtn}" Stretch="Uniform"></ImageBrush>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                                <Trigger Property="IsEnabled" Value="False">
+                                    <Setter Property="Background">
+                                        <Setter.Value>
+                                            <ImageBrush ImageSource="{StaticResource hPauseBtn}" Stretch="Uniform"></ImageBrush>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Cursor" Value="Hand"></Setter>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </DockPanel>
+            <DockPanel Grid.Column="2">
+                <Button x:Name="StopBtn" Click="StopBtn_Click" Height="68" Width="131">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}">
+                                <ContentPresenter />
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsEnabled" Value="True">
+                                    <Setter Property="Background">
+                                        <Setter.Value>
+                                            <ImageBrush ImageSource="{StaticResource nStopBtn}" Stretch="Uniform"></ImageBrush>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                                <Trigger Property="IsEnabled" Value="False">
+                                    <Setter Property="Background">
+                                        <Setter.Value>
+                                            <ImageBrush ImageSource="{StaticResource hStopBtn}" Stretch="Uniform"></ImageBrush>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Cursor" Value="Hand"></Setter>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </DockPanel>
+        </Grid>
+    </Border>
+</UserControl>

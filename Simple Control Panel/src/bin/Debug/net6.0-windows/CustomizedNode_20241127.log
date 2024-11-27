@@ -1,0 +1,438 @@
+13:34:33:391: DeviceCommandClient: Start
+
+13:34:34:335:  Out | {"Command":3,"Payload":"C;1.16.1400;Shell;D:\\0 Techman Inc\\! Product Dev\\2023 Q2_TMcraft Shell\\Examples\\Jerry control panel\\RunProject-v1.0.0.1\\Simple Control Panel\\bin\\Debug\\net6.0-windows\\TMcraft.dll"}
+
+13:34:34:532:  In| {"Error":0,"Payload":"OK"}
+
+13:34:34:576:  Out | {"Command":3598,"Payload":"[\"g_MyProjectList\"]"}
+
+13:34:34:620:  In| {"Error":282628,"Payload":""}
+
+13:34:35:563:  Out | {"Command":10028,"Payload":""}
+
+13:34:35:593:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:35:703:  Out | {"Command":2828,"Payload":""}
+
+13:34:35:709:  In| {"Error":0,"Payload":"null"}
+
+13:34:35:912:  Out | {"Command":2059,"Payload":""}
+
+13:34:35:932:  In| {"Error":0,"Payload":"False"}
+
+13:34:35:937:  Out | {"Command":10903,"Payload":""}
+
+13:34:35:951:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:35.9413858+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":26,\"ST_Seconds\":45,\"ST_Milliseconds\":687,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:35:963:  Out | {"Command":10905,"Payload":""}
+
+13:34:35:970:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:37:093:  Out | {"Command":10028,"Payload":""}
+
+13:34:37:099:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:37:103:  Out | {"Command":2828,"Payload":""}
+
+13:34:37:106:  In| {"Error":0,"Payload":"null"}
+
+13:34:37:143:  Out | {"Command":2059,"Payload":""}
+
+13:34:37:146:  In| {"Error":0,"Payload":"False"}
+
+13:34:37:148:  Out | {"Command":10903,"Payload":""}
+
+13:34:37:151:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:37.1511326+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":26,\"ST_Seconds\":46,\"ST_Milliseconds\":890,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:37:153:  Out | {"Command":10905,"Payload":""}
+
+13:34:37:156:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:38:175:  Out | {"Command":10028,"Payload":""}
+
+13:34:38:183:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:38:186:  Out | {"Command":2828,"Payload":""}
+
+13:34:38:189:  In| {"Error":0,"Payload":"null"}
+
+13:34:38:218:  Out | {"Command":2059,"Payload":""}
+
+13:34:38:221:  In| {"Error":0,"Payload":"False"}
+
+13:34:38:223:  Out | {"Command":10903,"Payload":""}
+
+13:34:38:226:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:38.2255916+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":26,\"ST_Seconds\":47,\"ST_Milliseconds\":968,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:38:228:  Out | {"Command":10905,"Payload":""}
+
+13:34:38:234:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:39:246:  Out | {"Command":10028,"Payload":""}
+
+13:34:39:252:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:39:255:  Out | {"Command":2828,"Payload":""}
+
+13:34:39:258:  In| {"Error":0,"Payload":"null"}
+
+13:34:39:286:  Out | {"Command":2059,"Payload":""}
+
+13:34:39:289:  In| {"Error":0,"Payload":"False"}
+
+13:34:39:291:  Out | {"Command":10903,"Payload":""}
+
+13:34:39:294:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:39.2944212+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":26,\"ST_Seconds\":49,\"ST_Milliseconds\":31,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:39:297:  Out | {"Command":10905,"Payload":""}
+
+13:34:39:300:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:40:307:  Out | {"Command":10028,"Payload":""}
+
+13:34:40:313:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:40:316:  Out | {"Command":2828,"Payload":""}
+
+13:34:40:319:  In| {"Error":0,"Payload":"null"}
+
+13:34:40:353:  Out | {"Command":2059,"Payload":""}
+
+13:34:40:357:  In| {"Error":0,"Payload":"False"}
+
+13:34:40:359:  Out | {"Command":10903,"Payload":""}
+
+13:34:40:361:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:40.3613926+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":26,\"ST_Seconds\":50,\"ST_Milliseconds\":93,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:40:363:  Out | {"Command":10905,"Payload":""}
+
+13:34:40:366:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:41:366:  Out | {"Command":10028,"Payload":""}
+
+13:34:41:374:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:41:378:  Out | {"Command":2828,"Payload":""}
+
+13:34:41:381:  In| {"Error":0,"Payload":"null"}
+
+13:34:41:408:  Out | {"Command":2059,"Payload":""}
+
+13:34:41:412:  In| {"Error":0,"Payload":"False"}
+
+13:34:41:414:  Out | {"Command":10903,"Payload":""}
+
+13:34:41:417:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:41.4173184+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":26,\"ST_Seconds\":51,\"ST_Milliseconds\":156,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:41:419:  Out | {"Command":10905,"Payload":""}
+
+13:34:41:422:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:42:476:  Out | {"Command":10028,"Payload":""}
+
+13:34:42:482:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:42:485:  Out | {"Command":2828,"Payload":""}
+
+13:34:42:488:  In| {"Error":0,"Payload":"null"}
+
+13:34:42:518:  Out | {"Command":2059,"Payload":""}
+
+13:34:42:521:  In| {"Error":0,"Payload":"False"}
+
+13:34:42:523:  Out | {"Command":10903,"Payload":""}
+
+13:34:42:526:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:42.5261609+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":26,\"ST_Seconds\":52,\"ST_Milliseconds\":265,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:42:529:  Out | {"Command":10905,"Payload":""}
+
+13:34:42:531:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:43:679:  Out | {"Command":10028,"Payload":""}
+
+13:34:43:687:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:43:691:  Out | {"Command":2828,"Payload":""}
+
+13:34:43:694:  In| {"Error":0,"Payload":"null"}
+
+13:34:43:727:  Out | {"Command":2059,"Payload":""}
+
+13:34:43:730:  In| {"Error":0,"Payload":"False"}
+
+13:34:43:732:  Out | {"Command":10903,"Payload":""}
+
+13:34:43:735:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:43.7347329+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":26,\"ST_Seconds\":53,\"ST_Milliseconds\":468,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:43:737:  Out | {"Command":10905,"Payload":""}
+
+13:34:43:741:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:44:793:  Out | {"Command":10028,"Payload":""}
+
+13:34:44:798:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:44:800:  Out | {"Command":2828,"Payload":""}
+
+13:34:44:803:  In| {"Error":0,"Payload":"null"}
+
+13:34:44:838:  Out | {"Command":2059,"Payload":""}
+
+13:34:44:841:  In| {"Error":0,"Payload":"False"}
+
+13:34:44:843:  Out | {"Command":10903,"Payload":""}
+
+13:34:44:846:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:44.8459201+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":26,\"ST_Seconds\":54,\"ST_Milliseconds\":578,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:44:848:  Out | {"Command":10905,"Payload":""}
+
+13:34:44:851:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:45:887:  Out | {"Command":10028,"Payload":""}
+
+13:34:45:892:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:45:895:  Out | {"Command":2828,"Payload":""}
+
+13:34:45:898:  In| {"Error":0,"Payload":"null"}
+
+13:34:45:926:  Out | {"Command":2059,"Payload":""}
+
+13:34:45:930:  In| {"Error":0,"Payload":"False"}
+
+13:34:45:932:  Out | {"Command":10903,"Payload":""}
+
+13:34:45:934:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:45.9343435+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":26,\"ST_Seconds\":55,\"ST_Milliseconds\":671,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:45:936:  Out | {"Command":10905,"Payload":""}
+
+13:34:45:942:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:47:022:  Out | {"Command":10028,"Payload":""}
+
+13:34:47:027:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:47:029:  Out | {"Command":2828,"Payload":""}
+
+13:34:47:032:  In| {"Error":0,"Payload":"null"}
+
+13:34:47:062:  Out | {"Command":2059,"Payload":""}
+
+13:34:47:065:  In| {"Error":0,"Payload":"False"}
+
+13:34:47:068:  Out | {"Command":10903,"Payload":""}
+
+13:34:47:075:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:47.0745260+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":26,\"ST_Seconds\":56,\"ST_Milliseconds\":812,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:47:078:  Out | {"Command":10905,"Payload":""}
+
+13:34:47:081:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:48:088:  Out | {"Command":10028,"Payload":""}
+
+13:34:48:099:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:48:104:  Out | {"Command":2828,"Payload":""}
+
+13:34:48:109:  In| {"Error":0,"Payload":"null"}
+
+13:34:48:145:  Out | {"Command":2059,"Payload":""}
+
+13:34:48:148:  In| {"Error":0,"Payload":"False"}
+
+13:34:48:150:  Out | {"Command":10903,"Payload":""}
+
+13:34:48:153:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:48.1535287+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":26,\"ST_Seconds\":57,\"ST_Milliseconds\":890,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:48:156:  Out | {"Command":10905,"Payload":""}
+
+13:34:48:159:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:48:991:  Out | {"Command":2829,"Payload":"true"}
+
+13:34:48:996:  In| {"Error":0,"Payload":""}
+
+13:34:49:192:  Out | {"Command":10028,"Payload":""}
+
+13:34:49:199:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:49:202:  Out | {"Command":2828,"Payload":""}
+
+13:34:49:204:  In| {"Error":0,"Payload":"null"}
+
+13:34:49:232:  Out | {"Command":2059,"Payload":""}
+
+13:34:49:234:  In| {"Error":0,"Payload":"False"}
+
+13:34:49:236:  Out | {"Command":10903,"Payload":""}
+
+13:34:49:239:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:49.2391416+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":26,\"ST_Seconds\":58,\"ST_Milliseconds\":984,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:49:241:  Out | {"Command":10905,"Payload":""}
+
+13:34:49:244:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:50:353:  Out | {"Command":10028,"Payload":""}
+
+13:34:50:364:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:50:369:  Out | {"Command":2828,"Payload":""}
+
+13:34:50:374:  In| {"Error":0,"Payload":"null"}
+
+13:34:50:409:  Out | {"Command":2059,"Payload":""}
+
+13:34:50:413:  In| {"Error":0,"Payload":"False"}
+
+13:34:50:415:  Out | {"Command":10903,"Payload":""}
+
+13:34:50:418:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:50.4177622+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":27,\"ST_Seconds\":0,\"ST_Milliseconds\":156,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:50:420:  Out | {"Command":10905,"Payload":""}
+
+13:34:50:423:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:51:486:  Out | {"Command":10028,"Payload":""}
+
+13:34:51:491:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:51:493:  Out | {"Command":2828,"Payload":""}
+
+13:34:51:496:  In| {"Error":0,"Payload":"null"}
+
+13:34:51:533:  Out | {"Command":2059,"Payload":""}
+
+13:34:51:536:  In| {"Error":0,"Payload":"False"}
+
+13:34:51:538:  Out | {"Command":10903,"Payload":""}
+
+13:34:51:541:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:51.5413155+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":27,\"ST_Seconds\":1,\"ST_Milliseconds\":281,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:51:544:  Out | {"Command":10905,"Payload":""}
+
+13:34:51:548:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:52:628:  Out | {"Command":10028,"Payload":""}
+
+13:34:52:634:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:52:637:  Out | {"Command":2828,"Payload":""}
+
+13:34:52:640:  In| {"Error":0,"Payload":"null"}
+
+13:34:52:668:  Out | {"Command":2059,"Payload":""}
+
+13:34:52:671:  In| {"Error":0,"Payload":"False"}
+
+13:34:52:673:  Out | {"Command":10903,"Payload":""}
+
+13:34:52:676:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:52.6763966+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":27,\"ST_Seconds\":2,\"ST_Milliseconds\":421,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:52:678:  Out | {"Command":10905,"Payload":""}
+
+13:34:52:681:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:52:759:  Out | {"Command":3598,"Payload":"[\"g_MyProjectList\"]"}
+
+13:34:52:766:  In| {"Error":282628,"Payload":""}
+
+13:34:53:812:  Out | {"Command":10028,"Payload":""}
+
+13:34:53:817:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:53:821:  Out | {"Command":2828,"Payload":""}
+
+13:34:53:824:  In| {"Error":0,"Payload":"null"}
+
+13:34:53:855:  Out | {"Command":2059,"Payload":""}
+
+13:34:53:859:  In| {"Error":0,"Payload":"False"}
+
+13:34:53:862:  Out | {"Command":10903,"Payload":""}
+
+13:34:53:866:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:53.8659011+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":27,\"ST_Seconds\":3,\"ST_Milliseconds\":609,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:53:868:  Out | {"Command":10905,"Payload":""}
+
+13:34:53:872:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:54:915:  Out | {"Command":10028,"Payload":""}
+
+13:34:54:919:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:54:922:  Out | {"Command":2828,"Payload":""}
+
+13:34:54:925:  In| {"Error":0,"Payload":"null"}
+
+13:34:54:954:  Out | {"Command":2059,"Payload":""}
+
+13:34:54:958:  In| {"Error":0,"Payload":"False"}
+
+13:34:54:960:  Out | {"Command":10903,"Payload":""}
+
+13:34:54:962:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:54.9625399+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":27,\"ST_Seconds\":4,\"ST_Milliseconds\":703,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:54:965:  Out | {"Command":10905,"Payload":""}
+
+13:34:54:967:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:56:003:  Out | {"Command":10028,"Payload":""}
+
+13:34:56:010:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:56:013:  Out | {"Command":2828,"Payload":""}
+
+13:34:56:016:  In| {"Error":0,"Payload":"null"}
+
+13:34:56:047:  Out | {"Command":2059,"Payload":""}
+
+13:34:56:050:  In| {"Error":0,"Payload":"False"}
+
+13:34:56:052:  Out | {"Command":10903,"Payload":""}
+
+13:34:56:055:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:56.0548145+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":27,\"ST_Seconds\":5,\"ST_Milliseconds\":796,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:56:057:  Out | {"Command":10905,"Payload":""}
+
+13:34:56:060:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:57:102:  Out | {"Command":10028,"Payload":""}
+
+13:34:57:106:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:57:109:  Out | {"Command":2828,"Payload":""}
+
+13:34:57:113:  In| {"Error":0,"Payload":"null"}
+
+13:34:57:143:  Out | {"Command":2059,"Payload":""}
+
+13:34:57:147:  In| {"Error":0,"Payload":"False"}
+
+13:34:57:149:  Out | {"Command":10903,"Payload":""}
+
+13:34:57:152:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:57.1523945+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":27,\"ST_Seconds\":6,\"ST_Milliseconds\":890,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:57:155:  Out | {"Command":10905,"Payload":""}
+
+13:34:57:158:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+
+13:34:58:280:  Out | {"Command":10028,"Payload":""}
+
+13:34:58:284:  In| {"Error":0,"Payload":"{\"RobotLink\":true,\"RobotPoint0\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotPoint1\":[517.5,-147.79999,442.45,180.0,-0.0,90.0,-0.0,0.0,90.0,0.0,90.0,-0.0,517.5,-147.79999,442.45,180.0,-0.0,90.0],\"RobotSpeedInfo\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"RobotToolSpeed3D\":0.0,\"RobotPayload\":0.0,\"StickSpeed\":1.0,\"fgCameraLightOn\":false,\"IOStatus\":[{\"Type\":16,\"Index\":0,\"Slot\":0,\"DICollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"DOCollection\":\"AAAAAAAAAAAAAAAAAAAAAA==\",\"AICollection\":[-0.00015625238,-0.00015625238],\"AOCollection\":[-0.00015259022,-0.00015259022]},{\"Type\":64,\"Index\":0,\"Slot\":1,\"DICollection\":\"AAAA\",\"DOCollection\":\"AAAA\",\"AICollection\":[-0.00015625238],\"AOCollection\":[]}],\"RobotLight\":5,\"ControlBOXMode\":2,\"FreeBotState\":2,\"ProjectRunState\":0,\"CurrentBaseName\":\"RobotBase\",\"CurrentTcpName\":\"RobotEndFlange\",\"AutoRunProjectName\":\"a1\",\"StickLocked\":false,\"SafetyResetPwd\":false,\"SafetyEditable\":false,\"SafetySpeedLocked\":false,\"SafetyClientVirtualStick\":false,\"SafetyStickState\":1,\"SafetyPendantState\":1,\"SafetyUnlocking\":0,\"SafetyT1orTCH\":2,\"SafetyOpState\":1,\"SafetyHw32AutoRemote\":0,\"SafetyPinStatusA\":0,\"SafetyPinStatusB\":0,\"SafetyChecksum\":\"3C5A\"}"}
+
+13:34:58:288:  Out | {"Command":2828,"Payload":""}
+
+13:34:58:291:  In| {"Error":0,"Payload":"null"}
+
+13:34:58:321:  Out | {"Command":2059,"Payload":""}
+
+13:34:58:324:  In| {"Error":0,"Payload":"False"}
+
+13:34:58:326:  Out | {"Command":10903,"Payload":""}
+
+13:34:58:330:  In| {"Error":0,"Payload":"{\"Now_Time\":\"2024-11-27T13:34:58.3305088+08:00\",\"ST_Days\":2,\"ST_Hours\":2,\"ST_Minutes\":27,\"ST_Seconds\":8,\"ST_Milliseconds\":62,\"RobotArmSN\":\"\",\"ControlBoxSN\":\"\",\"RobotLight\":5,\"ManualSetting\":0,\"RobotOpMode\":0,\"RobotOpState\":0,\"isError\":false,\"isPlay\":false,\"isEdit\":false,\"isPause\":false,\"isPermission\":false,\"isRemoteControl\":false,\"isRemoteCtrlIO\":false,\"CameraLight\":false,\"PlayEnablePort\":true,\"Drv_Temperature\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Voltage\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"Drv_Current\":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],\"System_Temperature\":0.0,\"System_Voltage\":0.0,\"System_Current\":0.0,\"System_Consumption\":0.0,\"Control_Voltage\":24.1,\"Control_Current\":0.0,\"Control_Consumption\":0.0,\"End_Current\":0.0,\"End_Current2\":0.0}"}
+
+13:34:58:333:  Out | {"Command":10905,"Payload":""}
+
+13:34:58:336:  In| {"Error":0,"Payload":"{\"EStopOutputFollow\":0,\"SafePauseOutputFollow\":0,\"SafeHMSSOutputFollow\":0,\"SI_N_Assign\":\"AQIAAAAAAAA=\",\"SO_N_Assign\":\"AAAAAAAAAAA=\",\"SI_N_Input\":\"AAAAAAAAAAA=\",\"SO_N_Output\":\"AAAAAAAAAAA=\",\"SO_N_OSSD\":\"AAAAAAAAAAA=\",\"SI_EStop\":0,\"SI_Safeguard\":0,\"SafetyChecksum\":\"3C5A\",\"SafetyVersion\":\"5.1\"}"}
+

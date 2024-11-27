@@ -1,0 +1,182 @@
+﻿<UserControl x:Class="HDProcess.UserControlPD"
+             x:Name="PD"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" 
+             d:DesignHeight="548" d:DesignWidth="1306">
+    <UserControl.Resources>
+        <BitmapImage x:Key="FGSwitch" UriSource="/HDProcess;component/Images/btn-switch-fg.png"></BitmapImage>
+        <BitmapImage x:Key="HDSwitch" UriSource="/HDProcess;component/Images/btn-switch-hd.png"></BitmapImage>
+    </UserControl.Resources>
+    <Border >
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.24*"/>
+                <RowDefinition Height="0.35*"/>
+                <RowDefinition Height="0.41*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.41*"/>
+                <ColumnDefinition Width="0.29*"/>
+                <ColumnDefinition Width="0.3*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel x:Name="TBD" Visibility="Visible" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Margin="0,0,10,0"></StackPanel>
+            <DockPanel Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2">
+                <Grid>
+                    <Border Style="{StaticResource BorderStyle}" Margin="5.5,0,0,5.5">
+                        <Grid Background="#FFFFFF">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="3*"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="Information" Style="{StaticResource TitleTextBlockStyle}" Grid.Row="0"></TextBlock>
+                            <ScrollViewer x:Name="scroll_viewer" Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                                <TextBox x:Name="txt_info" BorderThickness="0" FontFamily="Noto Sans CJK TC" FontSize="25" Padding="5" 
+                                         Text="" Background="Transparent" Foreground="#444444" TextWrapping="Wrap" 
+                                         VerticalAlignment="Top" HorizontalContentAlignment="Left"  Width="Auto" Height="Auto" IsReadOnly="True"/>
+                            </ScrollViewer>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </DockPanel>
+            <DockPanel Grid.Row="1" Grid.Column="1">
+                <Grid>
+                    <Border Style="{StaticResource BorderStyle}">
+                        <Grid  Background="#FFFFFF">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="3*" />
+                            </Grid.RowDefinitions>
+                            <DockPanel Grid.Row="0" >
+                                <TextBlock Text="鎖附階段 " Style="{StaticResource TitleTextBlockStyle}"></TextBlock>
+                            </DockPanel>
+                            <TextBlock x:Name="txt_sScrewProg" Text="" Style="{StaticResource ValueTextBlockStyle}" Grid.Row="2"></TextBlock>
+                            <Canvas Grid.Row="0" Grid.RowSpan="2">
+                                <ToggleButton x:Name="LockStatusBtn" Canvas.Right="12" Canvas.Top="12.5"  HorizontalAlignment="Right" 
+                                              VerticalAlignment="Bottom" Checked="LockStatusBtn_Checked"  Unchecked="LockStatusBtn_Unchecked" >
+                                    <ToggleButton.Template>
+                                        <ControlTemplate TargetType="{x:Type ToggleButton}">
+                                            <Image x:Name="img_switch" Source="{StaticResource HDSwitch}"></Image>
+                                            <ControlTemplate.Triggers>
+                                                <Trigger Property="IsChecked" Value="True">
+                                                    <Setter TargetName="img_switch" Property="Source" Value="{StaticResource FGSwitch}"></Setter>
+                                                </Trigger>
+                                                <Trigger Property="IsMouseOver" Value="True">
+                                                    <Setter Property="Cursor" Value="Hand"></Setter>
+                                                </Trigger>
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </ToggleButton.Template>
+                                </ToggleButton>
+                            </Canvas>
+                        </Grid>
+                    </Border>
+                </Grid>
+
+            </DockPanel>
+            <DockPanel Grid.Row="1" Grid.Column="2">
+                <Grid>
+                    <Border  Style="{StaticResource BorderStyle}" Margin="5.5,5.5,0,5.5">
+                        <Grid Background="#FFFFFF">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="3*" />
+                            </Grid.RowDefinitions>
+                            <DockPanel Grid.Row="0" >
+                                <TextBlock Text="鎖附位置 " Style="{StaticResource TitleTextBlockStyle}" Grid.Row="0"></TextBlock>
+                            </DockPanel>
+                            <TextBlock x:Name="txt_sScrewTimes" Text="" Style="{StaticResource ValueTextBlockStyle}" Grid.Row="2"></TextBlock>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </DockPanel>
+            <DockPanel Grid.Row="2" Grid.Column="0">
+                <Border  Margin="0,5.5,5.5,0">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <DockPanel Grid.Row="0">
+                            <TextBlock Text="工單" Style="{StaticResource BaseTextBlock}" FontSize="15px" DockPanel.Dock="Left"></TextBlock>
+                            <Grid>
+                                <TextBox x:Name="txt_sNo" Text="" Style="{StaticResource TextBoxStyle}"
+                                         KeyDown="Txt_sNo_KeyDown" Loaded="Txt_sNo_Loaded" GotFocus="Txt_GotKeyboardFocus" 
+                                         PreviewMouseLeftButtonDown="Txt_PreviewMouseLeftButtonDown">
+                                </TextBox>
+                            </Grid>
+                        </DockPanel>
+                        <DockPanel Grid.Row="1">
+                            <TextBlock Text="作業員工號" Style="{StaticResource BaseTextBlock}" FontSize="15px">
+                            </TextBlock>
+                            <Grid>
+                                <TextBox x:Name="txt_sID" Text="" Style="{StaticResource TextBoxStyle}"
+                                         KeyDown="Txt_sID_KeyDown" GotFocus="Txt_GotKeyboardFocus" 
+                                         PreviewMouseLeftButtonDown="Txt_PreviewMouseLeftButtonDown"></TextBox>
+                            </Grid>
+                        </DockPanel>
+                        <DockPanel Grid.Row="2">
+                            <TextBlock Text="外殼機序號" Style="{StaticResource BaseTextBlock}" FontSize="15px"></TextBlock>
+                            <Grid>
+                                <TextBox x:Name="txt_sJointCover" Text="" Style="{StaticResource TextBoxStyle}"
+                                         KeyDown="Txt_sJointCover_KeyDown" GotFocus="Txt_GotKeyboardFocus" 
+                                         PreviewMouseLeftButtonDown="Txt_PreviewMouseLeftButtonDown"></TextBox>
+                            </Grid>
+                        </DockPanel>
+                        <DockPanel Grid.Row="3">
+                            <TextBlock Text="減速機序號" Style="{StaticResource BaseTextBlock}"  FontSize="15px"></TextBlock>
+                            <Grid>
+                                <TextBox x:Name="txt_sHD" Text="" Style="{StaticResource TextBoxStyle}"
+                                         KeyDown="Txt_sHD_KeyDown" GotFocus="Txt_GotKeyboardFocus" 
+                                         PreviewMouseLeftButtonDown="Txt_PreviewMouseLeftButtonDown"></TextBox>
+                            </Grid>
+                        </DockPanel>
+                        <DockPanel Grid.Row="4">
+                            <TextBlock Text="領班輸入金鑰" Style="{StaticResource BaseTextBlock}"  FontSize="15px"></TextBlock>
+                            <Grid>
+                                <TextBox x:Name="txt_sKey" Text="" Style="{StaticResource TextBoxStyle}" Margin="15,0,0,5" 
+                                         KeyDown="Txt_sKey_KeyDown" GotFocus="Txt_GotKeyboardFocus"  
+                                         PreviewMouseLeftButtonDown="Txt_PreviewMouseLeftButtonDown"></TextBox>
+                            </Grid>
+                        </DockPanel>
+                    </Grid>
+                </Border>
+            </DockPanel>
+            <DockPanel Grid.Row="2" Grid.Column="1">
+                <Grid>
+                    <Border Style="{StaticResource BorderStyle}">
+                        <Grid Background="#FFFFFF">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="3*" />
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="鎖附 扭力" Style="{StaticResource TitleTextBlockStyle}" Grid.Row="0"></TextBlock>
+                            <Grid Grid.Row="1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock x:Name="txt_sTorque" Text="" Grid.Column="1" Style="{StaticResource ValueTextBlockStyle}" 
+                                           VerticalAlignment="Bottom" Margin="0,0,0,61" ></TextBlock>
+                                <TextBlock x:Name="txt_sTorqueUnit" Text="" Grid.Column="2" Style="{StaticResource BaseTextBlock}" 
+                                            FontSize="25.62px"  Foreground="#77BC1F" VerticalAlignment="Bottom" Margin="0,0,0,66"></TextBlock>
+                            </Grid>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </DockPanel>
+            <!--DockPanel Grid.Row="2" Grid.Column="2">
+                <ScrollViewer x:Name="err_viewer" VerticalScrollBarVisibility="Auto">
+                    <TextBox x:Name="txt_errInfo" BorderThickness="0" Padding="5" Text="" Background="Transparent"
+                                        Foreground="#444444" TextWrapping="Wrap" FontSize="13" VerticalAlignment="Top" Width="Auto" Height="Auto" IsReadOnly="True"/>
+                </ScrollViewer>
+            </DockPanel-->
+        </Grid>
+    </Border>
+</UserControl>
